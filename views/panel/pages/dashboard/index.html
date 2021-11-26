@@ -1,0 +1,37 @@
+{{define "dashboard" }}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {{ template "head" }}
+
+</head>
+
+<body class="app">
+
+    {{ template "header" }}
+
+    <!--//app-header-->
+
+    <div class="app-wrapper">
+
+        <div class="app-content pt-3 p-md-3 p-lg-4">
+
+            {{ template "content" }}
+
+            {{ template "footer" }}
+
+        </div><!--//app-wrapper-->
+    </div>
+
+
+{{ template "script" }}
+
+</body>
+</html>
+
+
+
+
+{{ end }}
